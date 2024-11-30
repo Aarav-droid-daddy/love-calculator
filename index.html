@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Love Calculator</h1>
+
+        <!-- User Form -->
+        <form id="loveForm">
+            <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="crush">Your Crush's Name:</label>
+                <input type="text" id="crush" placeholder="Enter their name" required>
+            </div>
+
+            <button type="submit" class="submit-btn">Calculate</button>
+        </form>
+
+        <!-- Result Section (hidden initially) -->
+        <div id="result" class="result-message"></div>
+
+        <!-- Laughing GIF (hidden initially) -->
+        <div id="gif" style="display:none;" class="gif-container">
+            <img src="https://media.giphy.com/media/1mTFdVRMM5iv6/source.gif" alt="Laughing GIF">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
